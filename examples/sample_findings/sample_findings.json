@@ -1,0 +1,10 @@
+[
+    {
+        "finding_id": "fnd_0001",
+        "track_id": "trk_0001",
+        "issue": "incomplete_split",
+        "expected": 100.0,
+        "actual": 94.0,
+        "delta": 6.0
+    }
+]

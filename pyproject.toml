@@ -1,0 +1,16 @@
+[project]
+name = "kobo"
+version = "0.1.0"
+description = "A royalty reconciliation agent built on DataHub's context graph and MCP server."
+requires-python = ">=3.10"
+dependencies = [
+    "acryl-datahub>=0.14.1",
+    "python-dotenv>=1.0.0",
+    "PyYAML>=6.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+]
+
+[tool.uv]
+# Nothing special yet -- placeholder for future workspace/tool config
+# (e.g. if agent/ and dashboard/ ever need separate dependency groups).
