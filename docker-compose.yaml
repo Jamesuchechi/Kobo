@@ -1,0 +1,17 @@
+# This file is intentionally left without service definitions.
+#
+# DataHub Core deprecated hand-written root-level docker-compose files.
+# The maintained setup path is the `datahub` CLI's managed quickstart, which
+# downloads a versioned, multi-service compose stack (GMS, MySQL, OpenSearch,
+# Kafka, frontend) automatically.
+#
+# To start DataHub locally, use:
+#
+#   make up
+#
+# which runs scripts/setup_datahub.sh, which in turn calls:
+#
+#   uv run datahub docker quickstart --version v1.5.0
+#
+# See scripts/setup_datahub.sh for full details and available commands
+# (up / down / nuke / token).

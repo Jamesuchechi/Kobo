@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+
+# Environment secrets — never commit real tokens/keys
+.env
+
+# Python cache
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+
+# Build artifacts and compressed archives
+*.tar.gz
+dist/
+build/
+*.egg-info/
+
+# Generated mock data (re-runnable via `make mock-data`)
+data/seed/
+
+# Node / dashboard
+dashboard/node_modules/
+dashboard/dist/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
